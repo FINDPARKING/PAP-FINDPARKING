@@ -33,10 +33,11 @@
             align-items: center;
             background-color: #fff;
         }
-        video {
+        iframe {
             width: 80%;
-            height: auto;
+            height: 480px;
             border-radius: 10px;
+            border: none;
         }
     </style>
 </head>
@@ -48,10 +49,7 @@
 
     <!-- Seção do Vídeo -->
     <div class="video-section">
-        <video controls>
-            <source src="https://drive.google.com/uc?export=download&id=1932ow2vKV4bkcxQiqKMD5FVcQQCttMvJ" type="video/mp4">
-            Seu navegador não suporta vídeos.
-        </video>
+        <iframe src="https://drive.google.com/file/d/1932ow2vKV4bkcxQiqKMD5FVcQQCttMvJ/preview" allowfullscreen></iframe>
     </div>
 </body>
 </html>
