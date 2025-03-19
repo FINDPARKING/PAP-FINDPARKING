@@ -33,9 +33,9 @@
             align-items: center;
             background-color: #fff;
         }
-        video, iframe {
+        video {
             width: 80%;
-            height: 480px;
+            height: auto;
             border-radius: 10px;
         }
     </style>
@@ -48,18 +48,10 @@
 
     <!-- Seção do Vídeo -->
     <div class="video-section">
-        <!-- Opção 1: Se o vídeo estiver em um servidor próprio -->
-        <!-- Substitua "URL_DO_VIDEO" pelo link direto -->
         <video controls>
-            <source src="https://seuservidor.com/video.mp4" type="video/mp4">
+            <source src="https://drive.google.com/uc?export=download&id=1932ow2vKV4bkcxQiqKMD5FVcQQCttMvJ" type="video/mp4">
             Seu navegador não suporta vídeos.
         </video>
-
-        <!-- Opção 2: Se estiver no Google Drive (Substitua SEU_ID_DE_VIDEO pelo ID correto) -->
-        <!-- <iframe src="https://drive.google.com/file/d/SEU_ID_DE_VIDEO/preview" allowfullscreen></iframe> -->
-
-        <!-- Opção 3: Se estiver no YouTube/Vimeo -->
-        <!-- <iframe src="https://www.youtube.com/embed/SEU_VIDEO_ID" frameborder="0" allowfullscreen></iframe> -->
     </div>
 </body>
 </html>
